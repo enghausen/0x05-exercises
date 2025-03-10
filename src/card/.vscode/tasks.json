@@ -7,7 +7,8 @@
       "command": "g++",
       "args": [
         "-g",
-        "${fileDirname}/*.cpp",
+        "${workspaceFolder}/card.cpp",
+        "${workspaceFolder}/game.cpp",
         "-o",
         "${workspaceFolder}/build/${fileBasenameNoExtension}.out"
       ],

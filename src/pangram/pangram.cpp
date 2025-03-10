@@ -1,5 +1,4 @@
 #include <iostream>
-// Exercise 0x00 - include "pangram.h" here
 
 int main(int argc, char** argv) {
 
@@ -17,7 +16,3 @@ std::string case_3 = "Amazingly few discotheques provide jukeboxes.";
 
   return 0;
 }
-
-// Exercise 0x00 - Implement the function from "pangram.h"
-
-// Exercise 0x01 - Implement the function from "program.h"

@@ -1,14 +1,14 @@
-# Exercise 0x00
+# 0x05 Exercises
 Write a program that returns the first letter to appear twice in a string composed with an alphabet containing only lowercase english letters (`a`-`z` or `0x61`-`0x7A` in ASCII).
 
-## Exercise 0x01
+## Exercise 0x051
 What is the string contains no repeats?:
 - `Uncopyrightable` (adjective): Not able to be protected by copyright
 - `Dermatoglyphics` (noun): The study of skin patterns/markings, such as fingerprints
 
 Modify the program from Exercise 0x00 to handle the case, where there are no repeat characters in the input string.
 
-## Exercise 0x02
+## Exercise 0x052
 Modify the program from Exercise 0x01, so it prints the positions (indices) of the letter to the console.
 
 Here are some example output:
@@ -16,7 +16,7 @@ Here are some example output:
 `'e', found at indices [1, 6]`
 - `Uncopyrightable` produces the output `'Uncopyrightable' contains no duplicate characters`
 
-# Exercise 0x10
+# Exercise 0x053
 A pangram is a string, which contains at least one instance of each character in a given
 alphabet.
 
@@ -26,13 +26,13 @@ Here are some test data:
 - `The five boxing wizards jump quickly.`
 - `Amazingly few discotheques provide jukeboxes.`
 
-## Exercise 0x11
+## Exercise 0x54
 
 Modify the program from Exercise 0x10 to only account for printable characters, excluding numbers, special characters and whitespaces.
 
 _Hint Is it possible to calculate a character using an offset and an upper and a lower bound (check ASCII.md)?_
 
-# Exercise 0x20 Card game
+## Exercise 0x55 Card game
 Implement a card game where the user is tasked with guessing whether the next card has a higher or lower value than the previous card.
 
 The game flow shall be as described:
@@ -45,7 +45,7 @@ The game flow shall be as described:
 
 Example output
 ```console
-$ ./card_game.o
+$ ./card_game.out
 The game presents you with a random card
 Your task is to guess whether the next card is higher og lower
 Type 'h' for higher, 'l' for lower, anything else to exit
