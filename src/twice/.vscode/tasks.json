@@ -7,7 +7,7 @@
       "command": "g++",
       "args": [
         "-g",
-        "${fileDirname}/twice.cpp",
+        "${workspaceFolder}/twice.cpp",
         "-o",
         "${workspaceFolder}/build/${fileBasenameNoExtension}.out"
       ],
