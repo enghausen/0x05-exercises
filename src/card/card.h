@@ -26,7 +26,5 @@ enum Rank {
 
 Rank random_rank();
 Suit random_suit();
-Suit to_suit(char c);
-Rank to_rank(int i);
 bool compare_cards(Rank, Suit, Rank, Suit);
 std::string to_string(Suit, Rank);
